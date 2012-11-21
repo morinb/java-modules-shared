@@ -8,4 +8,5 @@ public interface IComponentContainer {
     void setWindowManager(IWindowsManager wm);
 
     Collection<IModule> getModulesList();
+    
 }

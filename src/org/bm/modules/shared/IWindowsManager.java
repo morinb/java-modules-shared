@@ -14,4 +14,7 @@ public interface IWindowsManager {
 
     void setSelectedWindow(ModuleFrame frame);
 
+    void centerOnContainer(ModuleFrame frame);
+    
+    void refreshDisplay();
 }

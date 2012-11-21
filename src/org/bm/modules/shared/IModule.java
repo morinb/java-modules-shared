@@ -1,5 +1,6 @@
 package org.bm.modules.shared;
 
+import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 
 public interface IModule {
@@ -31,5 +32,12 @@ public interface IModule {
 
     ModuleFrame getModuleFrame();
 
-    String toString();
+    String getVersion();
+    
+    Boolean isActive();
+    
+    void setActive(Boolean active);
+    
+    Boolean isDeactivable();
+    
 }
