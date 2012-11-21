@@ -3,9 +3,9 @@ package org.bm.modules.shared;
 import java.util.Collection;
 
 public interface IComponentContainer {
-   IWindowsManager getWindowManager();
+    IWindowsManager getWindowManager();
 
-   void setWindowManager(IWindowsManager wm);
+    void setWindowManager(IWindowsManager wm);
 
-   Collection<IModule> getModulesList();
+    Collection<IModule> getModulesList();
 }

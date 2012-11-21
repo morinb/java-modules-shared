@@ -3,31 +3,33 @@ package org.bm.modules.shared;
 import javax.swing.KeyStroke;
 
 public interface IModule {
-   int MENU_FILE = 0;
+    int MENU_FILE = 0;
 
-   int MENU_OPTIONS = 1;
+    int MENU_OPTIONS = 1;
 
-   int MENU_WINDOWS = 2;
+    int MENU_WINDOWS = 2;
 
-   int MENU_HELP = 3;
+    int MENU_HELP = 3;
 
-   void attach();
+    void attach();
 
-   void deattach();
+    void deattach();
 
-   int getMenuIndex();
+    int getMenuIndex();
 
-   int getMenuItemIndex();
+    int getMenuItemIndex();
 
-   String getName();
+    String getName();
 
-   boolean hasMnemonic();
+    boolean hasMnemonic();
 
-   int getMnemonic();
+    int getMnemonic();
 
-   boolean hasAccelerator();
+    boolean hasAccelerator();
 
-   KeyStroke getAccelerator();
+    KeyStroke getAccelerator();
 
-   ModuleFrame getModuleFrame();
+    ModuleFrame getModuleFrame();
+
+    String toString();
 }

@@ -4,14 +4,14 @@ import java.util.List;
 
 public interface IWindowsManager {
 
-   List<ModuleFrame> getWindows();
+    List<ModuleFrame> getWindows();
 
-   void removeWindow(ModuleFrame w);
+    void removeWindow(ModuleFrame w);
 
-   void addWindow(ModuleFrame w);
+    void addWindow(ModuleFrame w);
 
-   void addModuleFrameListener(ModuleFrameListener moduleFrameListener);
+    void addModuleFrameListener(ModuleFrameListener moduleFrameListener);
 
-   void setSelectedWindow(ModuleFrame frame);
+    void setSelectedWindow(ModuleFrame frame);
 
 }
