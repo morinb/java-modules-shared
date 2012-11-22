@@ -12,4 +12,6 @@ public class ModuleFrame extends JInternalFrame {
    public IComponentContainer getComponentContainer() {
       return componentContainer;
    }
+
+   public void initComponents() {}
 }
